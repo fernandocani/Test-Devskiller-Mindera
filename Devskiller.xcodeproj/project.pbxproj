@@ -12,8 +12,6 @@
 		48D69BD12514ECC700DD96AA /* Devskiller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BCF2514ECC700DD96AA /* Devskiller.xcdatamodeld */; };
 		48D69BD32514ECC800DD96AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D69BD22514ECC800DD96AA /* Assets.xcassets */; };
 		48D69BD62514ECC800DD96AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D69BD42514ECC800DD96AA /* LaunchScreen.storyboard */; };
-		48D69BE12514ECC800DD96AA /* DevskillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BE02514ECC800DD96AA /* DevskillerTests.swift */; };
-		48D69BEC2514ECC800DD96AA /* DevskillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D69BEB2514ECC800DD96AA /* DevskillerUITests.swift */; };
 		DF3168C12CDA300D00C23AE9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3168C02CDA300D00C23AE9 /* MainViewModel.swift */; };
 		DF3168C42CDA309000C23AE9 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3168C32CDA309000C23AE9 /* Launch.swift */; };
 		DF3168C62CDA30BF00C23AE9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3168C52CDA30BF00C23AE9 /* Service.swift */; };
@@ -37,17 +35,11 @@
 		DF89D51A2CE0F9540075A23C /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF89D5192CE0F9540075A23C /* ImageCacheManager.swift */; };
 		DF89D5242CE18A4C0075A23C /* certificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF89D5232CE18A4C0075A23C /* certificate.cer */; };
 		DF89D5262CE18C2A0075A23C /* CertificateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF89D5252CE18C2A0075A23C /* CertificateHandler.swift */; };
+		DFF115E02CE2266D00BA474F /* ServiceMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF115DF2CE2266D00BA474F /* ServiceMockTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		48D69BDD2514ECC800DD96AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48D69BBB2514ECC700DD96AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48D69BC22514ECC700DD96AA;
-			remoteInfo = Devskiller;
-		};
-		48D69BE82514ECC800DD96AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 48D69BBB2514ECC700DD96AA /* Project object */;
 			proxyType = 1;
@@ -65,11 +57,7 @@
 		48D69BD52514ECC800DD96AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48D69BD72514ECC800DD96AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D69BDC2514ECC800DD96AA /* DevskillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevskillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D69BE02514ECC800DD96AA /* DevskillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevskillerTests.swift; sourceTree = "<group>"; };
 		48D69BE22514ECC800DD96AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48D69BE72514ECC800DD96AA /* DevskillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevskillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D69BEB2514ECC800DD96AA /* DevskillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevskillerUITests.swift; sourceTree = "<group>"; };
-		48D69BED2514ECC800DD96AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3168C02CDA300D00C23AE9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DF3168C32CDA309000C23AE9 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		DF3168C52CDA30BF00C23AE9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -93,6 +81,7 @@
 		DF89D5192CE0F9540075A23C /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		DF89D5232CE18A4C0075A23C /* certificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.cer; sourceTree = "<group>"; };
 		DF89D5252CE18C2A0075A23C /* CertificateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateHandler.swift; sourceTree = "<group>"; };
+		DFF115DF2CE2266D00BA474F /* ServiceMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMockTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D69BE42514ECC800DD96AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,7 +107,6 @@
 			children = (
 				48D69BC52514ECC700DD96AA /* Devskiller */,
 				48D69BDF2514ECC800DD96AA /* DevskillerTests */,
-				48D69BEA2514ECC800DD96AA /* DevskillerUITests */,
 				48D69BC42514ECC700DD96AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,7 +116,6 @@
 			children = (
 				48D69BC32514ECC700DD96AA /* Devskiller.app */,
 				48D69BDC2514ECC800DD96AA /* DevskillerTests.xctest */,
-				48D69BE72514ECC800DD96AA /* DevskillerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,19 +136,10 @@
 		48D69BDF2514ECC800DD96AA /* DevskillerTests */ = {
 			isa = PBXGroup;
 			children = (
-				48D69BE02514ECC800DD96AA /* DevskillerTests.swift */,
+				DFF115DF2CE2266D00BA474F /* ServiceMockTests.swift */,
 				48D69BE22514ECC800DD96AA /* Info.plist */,
 			);
 			path = DevskillerTests;
-			sourceTree = "<group>";
-		};
-		48D69BEA2514ECC800DD96AA /* DevskillerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				48D69BEB2514ECC800DD96AA /* DevskillerUITests.swift */,
-				48D69BED2514ECC800DD96AA /* Info.plist */,
-			);
-			path = DevskillerUITests;
 			sourceTree = "<group>";
 		};
 		DF3168BB2CDA2F6900C23AE9 /* Resources */ = {
@@ -288,24 +259,6 @@
 			productReference = 48D69BDC2514ECC800DD96AA /* DevskillerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		48D69BE62514ECC800DD96AA /* DevskillerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48D69BF62514ECC800DD96AA /* Build configuration list for PBXNativeTarget "DevskillerUITests" */;
-			buildPhases = (
-				48D69BE32514ECC800DD96AA /* Sources */,
-				48D69BE42514ECC800DD96AA /* Frameworks */,
-				48D69BE52514ECC800DD96AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48D69BE92514ECC800DD96AA /* PBXTargetDependency */,
-			);
-			name = DevskillerUITests;
-			productName = DevskillerUITests;
-			productReference = 48D69BE72514ECC800DD96AA /* DevskillerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -320,10 +273,6 @@
 						CreatedOnToolsVersion = 11.5;
 					};
 					48D69BDB2514ECC800DD96AA = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 48D69BC22514ECC700DD96AA;
-					};
-					48D69BE62514ECC800DD96AA = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 48D69BC22514ECC700DD96AA;
 					};
@@ -344,7 +293,6 @@
 			targets = (
 				48D69BC22514ECC700DD96AA /* Devskiller */,
 				48D69BDB2514ECC800DD96AA /* DevskillerTests */,
-				48D69BE62514ECC800DD96AA /* DevskillerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -367,13 +315,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		48D69BDA2514ECC800DD96AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48D69BE52514ECC800DD96AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,15 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D69BE12514ECC800DD96AA /* DevskillerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48D69BE32514ECC800DD96AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48D69BEC2514ECC800DD96AA /* DevskillerUITests.swift in Sources */,
+				DFF115E02CE2266D00BA474F /* ServiceMockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +365,6 @@
 			isa = PBXTargetDependency;
 			target = 48D69BC22514ECC700DD96AA /* Devskiller */;
 			targetProxy = 48D69BDD2514ECC800DD96AA /* PBXContainerItemProxy */;
-		};
-		48D69BE92514ECC800DD96AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48D69BC22514ECC700DD96AA /* Devskiller */;
-			targetProxy = 48D69BE82514ECC800DD96AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -605,7 +533,6 @@
 		48D69BF42514ECC800DD96AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L475LDQT;
@@ -627,7 +554,6 @@
 		48D69BF52514ECC800DD96AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L475LDQT;
@@ -643,46 +569,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devskiller.app/Devskiller";
-			};
-			name = Release;
-		};
-		48D69BF72514ECC800DD96AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74L475LDQT;
-				INFOPLIST_FILE = DevskillerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = mindera.DevskillerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Devskiller;
-			};
-			name = Debug;
-		};
-		48D69BF82514ECC800DD96AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74L475LDQT;
-				INFOPLIST_FILE = DevskillerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = mindera.DevskillerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Devskiller;
 			};
 			name = Release;
 		};
@@ -712,15 +598,6 @@
 			buildConfigurations = (
 				48D69BF42514ECC800DD96AA /* Debug */,
 				48D69BF52514ECC800DD96AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48D69BF62514ECC800DD96AA /* Build configuration list for PBXNativeTarget "DevskillerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48D69BF72514ECC800DD96AA /* Debug */,
-				48D69BF82514ECC800DD96AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
